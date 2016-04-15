@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <title>万年历</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="calendar">
+    <table id="calTable">
+        <thead id="formHead">
+        <tr>
+            <th colspan="7">
+                <button id="year_sub"><</button>
+                <label for="year">公历
+                    <select id="year">
+                        <option value="">1</option>
+                    </select>
+                    年
+                </label>
+                <button id="year_add">></button>
+
+
+                <button id="month_sub"><</button>
+                <label>
+
+                    <select id="month"></select>
+                    月
+                </label>
+
+                <button id="month_add">></button>
+            </th>
+        </tr>
+        </thead>
+        <tbody id="formBody">
+        <tr>
+            <td class="red">日</td>
+            <td>一</td>
+            <td>二</td>
+            <td>三</td>
+            <td>四</td>
+            <td>五</td>
+            <td class="red">六</td>
+        </tr>
+        </tbody>
+    </table>
+    <div id="daySep">
+        <div id="today"></div>
+        <div id="dateStr"></div>
+        <div id="weekDay"></div>
+        <div id="lunarDateStr"></div>
+        <div id="term"></div>
+        <div id="festival"></div>
+    </div>
+</div>
+<script src="Utils.js"></script>
+<script src="calendar.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

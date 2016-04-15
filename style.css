@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: solid 1px;
+
+}
+
+#calendar{
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+
+}
+#formBody {
+    text-align: center;
+}
+#formBody tr:first-child {
+    background-color: #fefbeb;
+    height: 40px;
+}
+
+#formHead {
+    font-size: 14px;
+    line-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.6);
+}
+#calTable{
+    float: left;
+    display: inline-block;
+    border: none;
+}
+#daySep{
+    float: left;
+    display: inline-block;
+    background-color: bisque;
+    width: 150px;
+    height: 380px;
+
+}
+
+.today {
+    background-color: #FFBB00;
+    color: #ffffff;
+}
+
+.crossMonth {
+    opacity: 0.5;
+    background-color: #F7F5F3;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chosenDay {
+    background-color: bisque;
+}
+
+.weekDays .day {
+    color: #e02d2d;
+}
+
+.dayItem {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.dayItem:hover {
+    background-color: bisque;
+}
+
+.red {
+    color: #e02d2d;
+}
+
+.down_line {
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+
+.term {
+    color: forestgreen;
+}
+
+.festival {
+    color: #ba0000;
+}
+
+
+
+#today{
+    font-size: 12px;
+    line-height: 40px;
+    color: gray;
+}
+
+#dateStr{
+    margin-top: 33px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Microsoft Sans Serif";
+    color: #ba0000;
+}
+
+#lunarDateStr{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Microsoft Sans Serif";
+}
+
+#term{
+    margin-top: 20px;
+    color: green;
+}
+
+#festival{
+    margin-top: 20px;
+    font-size: 14px;
+    color: dodgerblue;
+}
+
+
+@media screen and (max-width: 520px){
+
+    #calTable{
+        width: 100%;
+    }
+    #lunarDateStr{
+        margin-top: 10px;
+    }
+    #dateStr{
+        margin-top: 5px;
+    }
+    #today{
+        margin-top: 5px;
+    }
+    #daySep{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    #festival{
+        margin-bottom: 30px;
+    }
+    .dayItem{
+        width: 14%;
+        height:60px
+    }
+}

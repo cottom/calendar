@@ -1,5 +1,4 @@
 # 万年历 demo
->根据要求完成的demo
 
 ## 功能实现
 + 公历,农历对应
@@ -218,7 +217,8 @@ slider:{
 
 ## 参考
 
-[http://blog.jjonline.cn/userInterFace/173.html](http://blog.jjonline.cn/userInterFace/173.html)
-[http://blog.csdn.net/feniuben/article/details/21159271](http://blog.csdn.net/feniuben/article/details/21159271)
++ [http://blog.jjonline.cn/userInterFace/173.html](http://blog.jjonline.cn/userInterFace/173.html)
+
++ [http://blog.csdn.net/feniuben/article/details/21159271](http://blog.csdn.net/feniuben/article/details/21159271)
 
     
